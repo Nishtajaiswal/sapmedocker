@@ -12,7 +12,7 @@ node {
          * docker build on the command line */
 
          docker.build("getintodevops/hellonode")
-        app =docker tag firstimage getintodevops/hellonode
+        app =docker tag getintodevops/hellonode getintodevops/hellonode
     }
 
     stage('Test image') {
